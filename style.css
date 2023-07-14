@@ -5,9 +5,6 @@
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
-}
 
 a {
   color: #fff;
@@ -34,7 +31,7 @@ nav {
 }
 
 main {
-  background: url(./img/1680x1200-lucas3991-montanhas-wallpaper-preview.jpg) no-repeat center center;
+  background: url(./img/back.avif) no-repeat center center;
   background-size: cover;
   height: 92vh;
 }
@@ -63,6 +60,11 @@ main {
 
 
 @media (max-width: 999px) {
+
+  body {
+    overflow-x: hidden; /* Explicação: Se algo transborda, fica escondido */
+  }
+
   .nav-list {
     position: absolute;
     top: 8vh;
@@ -89,4 +91,4 @@ main {
 
 .nav-list.active {
   transform: translateX(0);
-}
+} 
