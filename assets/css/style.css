@@ -70,8 +70,8 @@ header {
 }
 
 img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .mobile-menu-icon {
@@ -86,6 +86,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 536px; /* Define a altura total da tela */
   }
 
@@ -135,6 +136,13 @@ main {
     .mobile-menu .login-button button {
         width: 100%;
     }
+
+    .texto-full-screen {
+        display: none;
+    }
+
+
+    /* Depois do JS */
     .open {
         display: block;
     }
