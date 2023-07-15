@@ -34,8 +34,8 @@ header {
 }
 
 .nav-list {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .nav-list ul {
@@ -92,7 +92,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 536px; /* Define a altura restante total da tela */
+    height: 536px; /* Define a altura total restante da tela */
   }
 
 main button {
