@@ -82,13 +82,56 @@ img {
     display: none;
 }
 
+.text-mobile-screen {
+    display: none;
+    margin-bottom: 20px;
+}
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 536px; /* Define a altura total da tela */
+    height: 536px; /* Define a altura restante total da tela */
   }
+
+main button {
+    display: none; /*Display flex foi adicionado na versão mobile*/
+
+    justify-content: center;
+    align-items: center;
+    background-color: #24252a;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 15px;
+    cursor: pointer;
+
+    box-shadow: 10px 9px 24px 0px rgba(36,37,42,0.52);
+-webkit-box-shadow: 10px 9px 24px 0px rgba(36,37,42,0.52);
+-moz-box-shadow: 10px 9px 24px 0px rgba(36,37,42,0.52);
+}
+
+a {
+    text-decoration: none;
+}
+
+.github-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+}
+
+.github-text span {
+    font-weight:400;
+    font-size: 14px;
+}
+
+.github-image img {
+    height: 40px;
+    width: 40px;
+}
 
 /* RESPONSIVIDADE  */
 
@@ -137,8 +180,18 @@ main {
         width: 100%;
     }
 
-    .texto-full-screen {
+    .text-full-screen {
         display: none;
+    }
+
+    .text-mobile-screen {
+        display: block;
+
+    }
+
+    main button {
+        display: block;
+        display: flex;
     }
 
 
