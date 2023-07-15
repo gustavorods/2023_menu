@@ -27,7 +27,7 @@ header {
 
 }
 
-nav.list {
+.nav-list {
     display: flex;
     align-items: center;
 }
@@ -38,7 +38,7 @@ nav.list {
     list-style: none;
 }
 
-.nav_item {
+.nav-item {
     margin: 0 15px;
 }
 
@@ -47,4 +47,18 @@ nav.list {
     font-size: 1.15rem;
     color: white;
     font-weight: 400;
+}
+
+.login-button  button{
+    border: none;
+    background-color: #0187a7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-button  button a {
+    text-decoration: none;
+    color: #Fff;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
